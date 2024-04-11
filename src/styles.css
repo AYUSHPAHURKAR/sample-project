@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    FONT-WEIGHT: BOLDER;
+    COLOR: blue;
+    BACKGROUND-COLOR: bisque;
+    BORDER: 2PX SOLID RED;
+    BORDER-RADIUS: 10PX;
+    PADDING:5PX;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    COLOR: mediumvioletred;
+  }
+  
+  form {
+margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 150px;
+    font-size: 20px;
+    color: royalblue;
+    background-color: bisque;
+  }
+  input[type='date']{
+    width: 300px;
+    font-size: 15px;
+    padding: 8px;
+    border: 2px solid royalblue;
+    color: navy;
+    background-color: antiquewhite;
+    border-radius: 10px;
+  }
+  
+  input[type='text'] {
+    width: 300px;
+    font-size: 15px;;
+    padding: 8px;
+    border: 2px solid royalblue;
+    color: navy;
+    background-color: antiquewhite;
+    border-radius: 10px;
+  }
+  
+  button[type='submit'] {
+    padding: 15px 50px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    BORDER-RADIUS: 30PX;
+    BORDER: 2PX SOLID MIDNIGHTBLUE;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+  }
+  
+  button[type='submit']:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    
+    list-style-type: none;
+    padding: 10px;
+    border: 2px solid green;
+
+  }
+  
+  li {
+    
+    margin-bottom: 10px;
+    background-color: darkturquoise;
+    padding: 10px
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
